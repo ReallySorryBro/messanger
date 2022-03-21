@@ -1,0 +1,26 @@
+.main-button {
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  height: 54px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  background-color: #3390ec;
+  color: #fff;
+  transition: 0.2s opacity;
+  max-width: 300px;
+}
+
+.main-button__span {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.main-button__wrapper {
+  display: flex;
+  justify-content: center;
+}

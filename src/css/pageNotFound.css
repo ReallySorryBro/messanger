@@ -1,0 +1,27 @@
+.not-found-error {
+  font-size: 76px;
+  margin-bottom: 20px;
+}
+
+.not-found-container {
+  display: flex;
+  height: 95vh;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.not-found-title {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #888888;
+}
+
+.not-found-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #888888;
+  border-bottom: 1px solid #888888;
+  padding-bottom: 20px;
+}
