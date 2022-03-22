@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel src/pages/index.hbs --no-cache",
     "start": "node app.js",
-    "build": "parcel build src/pages/index.hbs --no-cache"
+    "build": "parcel build src/pages/index.hbs --no-cache --public-url ./"
   },
   "author": "Polina",
   "license": "ISC",
