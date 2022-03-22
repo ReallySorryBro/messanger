@@ -1,3 +1,6 @@
+@import url(./postCss/variants.css);
+@import url(./postCss/colors.css);
+
 .form__wrapper {
   flex: 0 0 auto;
   width: 360px;
@@ -11,13 +14,13 @@
 
 .form__subtitle {
   text-align: start;
-  font-size: 18px;
+  font-size: var(--variant-regular);
   margin-bottom: 15px;
-  color: #707579;
+  color: var(--color-grey);
 }
 
 .form__title {
-  font-size: 30px;
+  font-size: var(--variant-extraRegular2);
   margin: 0;
   margin-bottom: 30px;
 }
@@ -39,7 +42,8 @@
     border-radius: 10px;
     margin-bottom: 15px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid;
+    border-color: var(--variant-lightGrey);
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;

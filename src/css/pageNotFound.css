@@ -1,11 +1,15 @@
+@import url(./postCss/variants.css);
+@import url(./postCss/colors.css);
+
 .not-found-error {
-  font-size: 76px;
+  font-size: var(--variant-extraH1);
   margin-bottom: 20px;
 }
 
 .not-found-container {
   display: flex;
   height: 95vh;
+  font-weight: 10;
   justify-content: center;
   flex-direction: column;
   text-align: center;
@@ -13,15 +17,16 @@
 }
 
 .not-found-title {
-  font-size: 25px;
+  font-size: var(--variant-extraRegular);
   margin-bottom: 20px;
-  color: #888888;
+  color: var(--color-darkGrey);
 }
 
 .not-found-description {
-  font-size: 18px;
+  font-size: var(--variant-regular);
   margin-bottom: 30px;
-  color: #888888;
-  border-bottom: 1px solid #888888;
+  color: var(--color-darkGrey);
+  border-bottom: 1px solid;
+  border-color: var(--color-darkGrey);
   padding-bottom: 20px;
 }

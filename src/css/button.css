@@ -1,3 +1,6 @@
+@import url(./postCss/variants.css);
+@import url(./postCss/colors.css);
+
 .main-button {
   border-radius: 10px;
   width: 100%;
@@ -9,15 +12,15 @@
   overflow: hidden;
   position: relative;
   padding: 0;
-  background-color: #3390ec;
-  color: #fff;
+  background-color: var(--color-blue);
+  color: var(--color-white);
   transition: 0.2s opacity;
   max-width: 300px;
 }
 
 .main-button__span {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: var(--variant-caption);
 }
 
 .main-button__wrapper {

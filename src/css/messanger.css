@@ -1,3 +1,5 @@
+@import url(./postCss/colors.css);
+
 .chats {
   height: 95vh;
   display: flex;
@@ -9,7 +11,8 @@
   border-radius: 10px;
   margin-bottom: 15px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid;
+  border-color: var(--variant-lightGrey);
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
@@ -23,7 +26,7 @@
 .chat {
   width: 60%;
   height: 100%;
-  background-color: aliceblue;
+  background-color: var(--color-aliceBlue);
   justify-content: end;
   display: flex;
   flex-direction: column;
